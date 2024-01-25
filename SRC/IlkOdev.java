@@ -1,5 +1,6 @@
-import java.util.Scanner;
+package SRC;
 
+import java.util.Scanner;
 public class IlkOdev {
     public static void baslangic() {
         System.out.println("Hello World"); // cıktı alabilmek için
@@ -82,6 +83,19 @@ public class IlkOdev {
 
         scr.close();
     }
+    public static void tekrarlananSayilariBul(int[] dizi) {
+        System.out.println("Tekrarlanan sayılar:");
+        for (int i = 0; i < dizi.length; i++) {
+            for (int j = i + 1; j < dizi.length; j++) {
+                if (dizi[i] == dizi[j]) {
+                    // Çiftleri bir kez göstermek için
+                    // tekrarlanan elemanı bulduktan sonra onu bir daha kontrol etmeyeceğiz.
+                    System.out.println(dizi[i]);
+                    break; // Bir kez bulduktan sonra iç loop'tan çık.
+                }
+            }
+        }
+    }
 
     public static void main( String[] args ) {
         baslangic();
@@ -93,6 +107,8 @@ public class IlkOdev {
         enBuyukSayi();
         tersCevirme();
         toplamaIslemi();
+        int[] sayi={2,34,6,2,8,6,7,2,3,6,7,8};
+        tekrarlananSayilariBul(sayi);
 
     }
 }

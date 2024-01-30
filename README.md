@@ -1,1 +1,1 @@
-# Cal-smalarVeMethod
+# Calismalar Ve Method

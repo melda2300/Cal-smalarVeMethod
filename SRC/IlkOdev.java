@@ -1,6 +1,5 @@
-package SRC;
-
 import java.util.Scanner;
+
 public class IlkOdev {
     public static void baslangic() {
         System.out.println("Hello World"); // cıktı alabilmek için

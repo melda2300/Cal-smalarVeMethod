@@ -1,7 +1,4 @@
-package SRC;
-
 import java.util.Arrays;
-
 public class ThirdAssignment {
     // Soru 1: Java'da bir karakter dizisindeki en uzun kelimeyi bulan bir fonksiyon yazınız.
     public static String kelimedeMax( String[] kelimeler ) {

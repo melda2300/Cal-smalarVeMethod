@@ -106,11 +106,10 @@ public class fourthHomework {
 
     // Soru 6:Java'da bir tamsayının pozitif çarpanlarını bulan bir program yazınız.
     public static void findPositiveMultipliers( int sayi ) {
-        System.out.println("Pozitif çarpanlar .");
-
+        System.out.println("Pozitif çarpanları .");
         for (int i = 1; i <= sayi; i++) {
             if (sayi % i == 0) {
-                System.out.println(i+" ");
+                System.out.print(" ("+i+")");
             }
         }
 
@@ -158,15 +157,14 @@ public class fourthHomework {
         System.out.println("1. soru");
         String kelime = " Java'da bir metindeki her kelimenin ilk harfini büyük yapacak bir fonksiyon yazınız. ";
         System.out.println(ilkHarfiniBuyuk(kelime));
-        System.out.println("\n");
 
+        System.out.println("----------------------------------");
 
         System.out.println("2. soru");
         String kelimeler = "merhaba dünya";
         System.out.println("Kelime sayısı => " + kelimeSaymaca(kelimeler));
 
-        System.out.println("\n");
-
+        System.out.println("----------------------------------");
 
         System.out.println("3. soru");
         int sayi = 143;
@@ -194,10 +192,10 @@ public class fourthHomework {
         System.out.println("----------------------------------");
 
 
-        System.out.println("6");
+        System.out.println("6 soru");
         int sayii = 12;
         findPositiveMultipliers(sayii);
-        System.out.println("----------------------------------");
+        System.out.println("\n----------------------------------");
 
 
         System.out.println("7 soru");

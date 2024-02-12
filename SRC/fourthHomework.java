@@ -1,7 +1,4 @@
-package SRC;
-
 import java.util.Arrays;
-
 public class fourthHomework {
     // 1- Java'da bir metindeki her kelimenin ilk harfini büyük yapacak bir fonksiyon yazınız.
     public static String ilkHarfiniBuyuk( String kelimeler ) {
